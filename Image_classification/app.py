@@ -5,7 +5,7 @@ import streamlit as st
 import numpy as np 
 
 st.header('Image Classification Model')
-model = load_model(r'C:\Users\yashs\Downloads\Image_classification\Image_classification\Image_classify.keras')
+model = load_model('Image_classify.keras')
 data_cat = ['apple',
  'banana',
  'beetroot',
